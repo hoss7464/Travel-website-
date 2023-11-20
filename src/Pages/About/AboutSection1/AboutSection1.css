@@ -1,0 +1,98 @@
+.about-section1-bg {
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.email-box-margin {
+    margin-left: 0 !important ;
+}
+
+.about-btn-margin {
+    margin-top: 1rem;
+}
+
+.hossein-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../Assets/Png/21.jpg");
+}
+
+@media only screen and (min-width: 280px) and (max-width:576px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg8.png");
+    }
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 577px) and (max-width:768px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg7.png");
+    }
+
+    .about-img {
+        display: flex !important ;
+      }
+}
+
+@media only screen and (min-width: 769px) and (max-width:992px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg6.png");
+    }
+
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1024px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg5.png");
+    }
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg4.png");
+    }
+
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 1281px) and (max-width:1440px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg3.png");
+    }
+
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 1441px) and (max-width:1920px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg2.png");
+    }
+    
+    .about-img {
+        display: none !important ;
+      }
+}
+
+@media only screen and (min-width: 1921px) {
+    .about-section1-bg {
+        background-image: url("../../../Assets/Png/AboutBg1.png");
+    }
+
+    .about-img {
+      display: none !important ;
+    }
+}

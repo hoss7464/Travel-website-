@@ -1,0 +1,48 @@
+.left-background {
+  background-image: url("../../../Assets/Png/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 576px) {
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .social-media {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .social-media {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .social-media {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  .social-media {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  .social-media {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .social-media {
+    display: none !important;
+  }
+}

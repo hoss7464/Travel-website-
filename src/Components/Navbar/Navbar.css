@@ -1,0 +1,48 @@
+.active-color {
+  background-color: #EDC2FA;
+  transition: all 0.2s ease-in-out;
+}
+
+.Sign-in {
+  font-weight: 600 !important;
+}
+
+@media only screen and (min-width: 769px) and (max-width:992px) {
+  .signUp-margin-right {
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1024px) {
+  .signUp-margin-right {
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+  .signUp-margin-right {
+    margin-right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width:1440px) {
+  .signUp-margin-right {
+    margin-right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width:1920px) {
+  .signUp-margin-right {
+    margin-right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .signUp-margin-right {
+    margin-right: 3rem;
+  }
+}
+
+.sign-in-background {
+  background-color: #46EB14;
+}
